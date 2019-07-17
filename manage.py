@@ -2,6 +2,10 @@
 import os
 import sys
 
+def fn(x, y, a, b, c, d, e, f):
+    import re
+    print(x+y+a+b)
+
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.local')
 
